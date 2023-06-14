@@ -1,6 +1,6 @@
 .display {
   border: 10px solid rgb(68, 0, 255);
-  width:fit-content;
+  width: fit-content;
   min-width: 200px;
   min-height: 164px;
   height: fit-content;
@@ -11,4 +11,3 @@
   align-items: center;
   justify-content: center;
 }
-

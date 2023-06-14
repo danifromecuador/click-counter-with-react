@@ -6,7 +6,7 @@ const number = 122;
 
 const App = () => (
   <div className="App">
-    <Display number={number}/>
+    <Display number={number} />
   </div>
 );
 
