@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Display from './components/Display';
+
+const number = 122;
 
 const App = () => (
   <div className="App">
-    <Header />
+    <Display number={number}/>
   </div>
 );
 
