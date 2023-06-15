@@ -1,11 +1,8 @@
 .display {
   border: 10px solid rgb(68, 0, 255);
-  width: fit-content;
-  min-width: 200px;
-  min-height: 164px;
-  height: fit-content;
-  margin: 50px auto;
-  padding: 20px;
+  width: 200px;
+  margin: 50px auto 0 auto ;
+  padding: 0 40px;
   font-size: 144px;
   display: flex;
   align-items: center;
