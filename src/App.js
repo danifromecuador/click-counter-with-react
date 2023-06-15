@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Display from './components/Display';
+import Buttons from './components/Buttons';
+
+const number = 0;
 
 const App = () => (
   <div className="App">
-    <Header />
+    <Display number={number} />
+    <Buttons />
   </div>
 );
 
