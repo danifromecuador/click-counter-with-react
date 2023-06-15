@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Button.css';
 
-const Button = (props) => (
+const Button = ({ symbol }) => (
   <div className="button">
-    {props.symbol}
+    {symbol}
   </div>
 );
 

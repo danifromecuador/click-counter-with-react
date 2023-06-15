@@ -1,9 +1,7 @@
 .button {
-  border: 10px solid rgb(68, 0, 255);  
-  margin: 20px auto 0 auto;
-  padding: 20px;
-  width:fit-content;
-  height: 30px;
+  border: 5px solid rgb(68, 0, 255);  
+  width: 80px;
+  height: 60px;
   font-size: 74px;
   display: flex;
   align-items: center;

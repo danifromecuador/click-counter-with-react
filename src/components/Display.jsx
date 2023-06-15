@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Display.css';
 
-const Display = (props) => (
+const Display = ({ number }) => (
   <div className="display">
-    {props.number}
+    {number}
   </div>
 );
 
