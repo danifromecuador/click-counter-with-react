@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/Button.css';
 
 const Button = ({ symbol }) => (
@@ -6,5 +7,9 @@ const Button = ({ symbol }) => (
     {symbol}
   </div>
 );
+
+Button.propTypes = {
+  symbol: PropTypes.string.isRequired,
+};
 
 export default Button;
