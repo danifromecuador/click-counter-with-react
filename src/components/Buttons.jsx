@@ -2,12 +2,12 @@ import React from 'react';
 import Button from './Button';
 import '../styles/Buttons.css';
 
-const Buttons = ({add}) => {  
+const Buttons = ({add, subtract, restore}) => {  
   return (
     <div className="buttons">
-      <Button symbol="-" />
-      <Button symbol="&#x27F3;" />
-      <Button symbol="+" add={add} />
+      <Button symbol="-" subtract={subtract} />
+      <Button symbol="&#x27F3;" restore={restore} />
+      <Button symbol="+" add={add}/>
     </div>);
 };
 

@@ -12,10 +12,21 @@ const App = () => {
     setCount(count + 1);
     console.log(count);
   };
+
+  const subtract = () => {
+    setCount(count - 1);
+    console.log(count);
+  };
+
+  const restore = () => {
+    setCount(0);
+    console.log(count);
+  };
+  
   return (
     <div className="App">
       <Display number={count} />
-      <Buttons add={add} />
+      <Buttons add={add} subtract={subtract} restore={restore} />
     </div>
   );
 }

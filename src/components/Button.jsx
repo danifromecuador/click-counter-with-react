@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Button.css';
 
-const Button = ({ symbol, add }) => {
+const Button = ({ symbol, add, subtract, restore }) => {
 
   return (
-    <div className="button" onClick={add} >
+    <div className="button" onClick={symbol === '+' ? add : symbol==='-' ? subtract : restore } >
       {symbol}
     </div>
   );
