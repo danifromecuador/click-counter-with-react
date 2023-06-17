@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Display from './components/Display';
 import Buttons from './components/Buttons';
+import Navbar from './components/Navbar';
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Navbar />
       <Display number={count} />
       <Buttons add={add} subtract={subtract} restore={restore} />
     </div>
