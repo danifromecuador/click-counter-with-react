@@ -24,4 +24,11 @@ Button.propTypes = {
   restore: PropTypes.func,
 };
 
+Button.defaultProps = {
+  symbol: '',
+  add: () => {},
+  subtract: () => {},
+  restore: () => {},
+};
+
 export default Button;
