@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Display.css';
 
-const Display = ({ number }) => (
+const Display = ({ count }) => (
   <div className="display">
-    {number}
+    {count}
   </div>
 );
 
 Display.propTypes = {
-  number: PropTypes.number.isRequired,
+  count: PropTypes.number.isRequired,
 };
 
 export default Display;
