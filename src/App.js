@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Display from './components/Display';
 import Buttons from './components/Buttons';
@@ -20,11 +21,14 @@ const App = () => {
   const restore = () => setCount(0);
 
   return (
-    <div className="App">
+    <Router >
       <Navbar />
-      <Display number={count} />
+      <Display count={count} />
       <Buttons add={add} subtract={subtract} restore={restore} />
-    </div>
+      {/* <Route exact path="/" component={Home} /> */}
+      <Route path="/About" component={About} />
+      <Route path="/Contact" component={Contact} />
+    </Router>
   );
 };
 
