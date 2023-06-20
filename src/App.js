@@ -3,6 +3,8 @@ import './App.css';
 import Display from './components/Display';
 import Buttons from './components/Buttons';
 import Navbar from './components/Navbar';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 const App = () => {
   const [count, setCount] = useState(0);
